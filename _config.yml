@@ -17,3 +17,7 @@ github_username:  ayushcshah
 
 # Build settings
 markdown: kramdown
+
+# Sitemap
+gems:
+  - jekyll-sitemap
