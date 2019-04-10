@@ -20,7 +20,7 @@ To check for duplicate subtree tree we first need to uniquely identify each
 subtrees. A binary tree can be constructed uniquely from a given inorder and
 postorder traversal [reference][construct-binary-tree]. With this theory we can
 represent each subtrees to a unique inorder and postorder traversal pair. Then
-create a list of inorder and preorder traversals of all subtrees and check if
+create a list of inorder and postorder traversals of all subtrees and check if
 there exist pair that repeats in the list.
 
 Approach
