@@ -165,6 +165,9 @@ While `DictionaryArray` improves the efficiency of finding, updating, and deleti
 
 Conclusion
 ---
-The `DictionaryArray` approach is a great option for collections where each item has a unique identifier and where find, delete, and insert operations need to be fast. By leveraging dictionaries, we achieve `O(1)` time complexity for these operations, which is a significant improvement over the `O(n)` complexity of traditional arrays. This structure is especially useful for applications where performance is crucial, and unique entries are essential, such as product catalogs, user management systems, and inventory tracking.
+The `DictionaryArray` structure is a powerful alternative to traditional arrays, offering the efficiency of dictionaries with the usability of arrays. It enables `O(1)` time complexity for lookups, insertions, updates, and deletions by using unique identifiers, making it ideal for collections where each element has a unique key and where fast access is crucial. This is particularly useful in scenarios like product catalogs, user management, and inventory systems, where large data sets benefit from efficient operations.
 
-This blend of dictionary efficiency with array-like usability makes `DictionaryArray` an exciting option in the Swift toolkit. Whether you’re managing products, user profiles, or any other uniquely identified data, this structure brings both speed and simplicity to the table.
+While `Set` also ensures uniqueness and provides `O(1)` operations for checking existence, insertion, and removal, it lacks direct key-based retrieval. `DictionaryArray`, on the other hand, allows retrieval by a specific identifier (UUID), making it more versatile when unique elements need to be frequently accessed by their unique keys. If the use case only requires maintaining unique entries without the need for indexed access, `Set` is a simpler and lighter option.
+
+Overall, `DictionaryArray` is a valuable addition to the Swift toolkit, particularly when unique identifiers are involved and frequent, efficient lookups and updates are essential. It effectively combines the benefits of arrays, dictionaries, and sets, offering both speed and functionality for data that must be uniquely identified.
+
