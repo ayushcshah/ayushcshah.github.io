@@ -2,7 +2,7 @@
 layout: post
 title: "Automating Client Model Updates with AI"
 date: 2025-09-22
-categories: ai automation dev-productivity
+categories: [ai automation dev-productivity]
 ---
 
 ## TL;DR/Intro
